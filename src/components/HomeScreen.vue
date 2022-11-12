@@ -13,6 +13,3 @@
     </router-link>
   </div>
 </template>
-<style>
-
-</style>
