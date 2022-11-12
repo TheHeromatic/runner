@@ -1,20 +1,24 @@
+<script setup>
+function enterGameScreen() {
+  // `this` inside methods points to the current active instance
+  alert(`Let the Hunger Games begin`)
+}
+function enterSettings() {
+  alert('open settings now')
+}
+</script>
 <template>
   <div>&nbsp; </div>
   <div>&nbsp; </div>
   <div>&nbsp; </div>
   <div>&nbsp; </div>
   <h1 class="title">Runner</h1>
-  <div>&nbsp; </div>
-  <div>&nbsp; </div>
-  <button class="buttonStartGame">Start Game</button>
+  <button class="buttonStartGame" @click="enterGameScreen">Start Game</button>
   <div></div>
-  <button class="buttonSettings">Settings</button>
+  <button class="buttonSettings" @click="enterSettings">Settings</button>
 </template>
 
-<script setup>
 
-
-</script>
 
 <style>
 #app {
