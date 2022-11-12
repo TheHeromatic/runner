@@ -3,6 +3,11 @@
     color: #590377;
     font-family: 'Courier New', monospace;
 }
+.settingsTitle{
+    font-size: 60px;
+    color: #590377;
+    font-family: 'Courier New', monospace;
+}
 .homeScreenDiv {
     padding-top: 50px;
 }
@@ -68,4 +73,28 @@
     position: absolute;
     border: solid 3px black;
     z-index: 1000;
+}
+.buttonLightMode {
+    background-color:white;
+    border: solid black 2px;
+    color: black;
+    padding: 13px 53px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.buttonDarkMode  {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }
