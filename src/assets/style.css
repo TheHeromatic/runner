@@ -1,3 +1,8 @@
+.title {
+    font-size: 60px;
+    color: #590377;
+    font-family: 'Courier New', monospace;
+}
 .homeScreenDiv {
     padding-top: 50px;
 }
@@ -36,13 +41,7 @@
     cursor: pointer;
     border-radius: 12px;
 }
-
-.title {
-    font-size: 60px;
-    color: #590377;
-    font-family: 'Courier New', monospace;
-}
-.homeScreenButton {
+.buttonHomeScreen {
     background-color: #C5C5C5;
     border: none;
     color: black;
@@ -54,6 +53,7 @@
     cursor: pointer;
     border-radius: 12px;
 }
+
 #field {
     background-color: greenyellow;
     height: 900px;

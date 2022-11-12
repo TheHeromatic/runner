@@ -1,6 +1,7 @@
 <template>
+
   <router-link to="/">
-    <button class="homeScreenButton">Back to home</button>
+    <button class="buttonHomeScreen">Back to home</button>
   </router-link>
 </template>
 
