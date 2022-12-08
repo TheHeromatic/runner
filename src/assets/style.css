@@ -60,14 +60,14 @@
 }
 
 #field {
-    background-color: greenyellow;
+    background-color: #7c5573;
     height: 900px;
     width: 680px;
     position: relative;
     border: solid 5px black;
 }
 #player {
-    background-color: orangered;
+    background-color: aquamarine;
     height: 40px;
     width: 40px;
     position: absolute;
@@ -97,4 +97,32 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
+}
+.buttonDarkModeSelected {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 55px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.buttonLightModeNotSelected {
+    background-color:white;
+    border: solid black 2px;
+    color: black;
+    padding: 13px 53px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.backGroundDark {
+    background-color: black;
 }

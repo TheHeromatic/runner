@@ -1,7 +1,7 @@
 <script setup>
 
 </script>
-<template>
+<template style="backGroundHomeScreen">
   <div class="homeScreenDiv">
    <h1 class="title">Runner</h1>
     <router-link to="/gameScreen">
