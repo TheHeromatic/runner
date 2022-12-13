@@ -3,7 +3,8 @@ import HomeScreen from '../components/HomeScreen.vue'
 import GameScreen from '../components/GameScreen.vue'
 import SettingsScreen from '../components/SettingsScreen.vue'
 import SettingsScreenDark from '../components/SettingsScreenDark.vue'
-
+import HomeScreenDark from '../components/HomeScreenDark.vue'
+import GameScreenDark from '../components/GameScreenDark.vue'
 const routes = [
   {
     path: '/',
@@ -24,6 +25,16 @@ const routes = [
     path: '/settingsScreenDark',
     name: '/settingsScreenDark',
     component: SettingsScreenDark
+  },
+  {
+    path: '/homeScreenDark',
+    name: '/homeScreenDark',
+    component: HomeScreenDark
+  },
+  {
+    path: '/gameScreenDark',
+    name: '/gameScreenDark',
+    component: GameScreenDark
   }
 ]
 

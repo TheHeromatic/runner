@@ -3,9 +3,19 @@
     color: #590377;
     font-family: 'Courier New', monospace;
 }
+.titleDark {
+    font-size: 60px;
+    color: white;
+    font-family: 'Courier New', monospace;
+}
 .settingsTitle{
     font-size: 60px;
     color: #590377;
+    font-family: 'Courier New', monospace;
+}
+.settingsTitleDark {
+    font-size: 60px;
+    color: white;
     font-family: 'Courier New', monospace;
 }
 .homeScreenDiv {
@@ -21,7 +31,7 @@
     margin-top: 70px;
 
 }
-.buttonStartGame {
+.gameScreen {
     background-color: #590377 ;
     border: none;
     color: white;
@@ -33,12 +43,35 @@
     cursor: pointer;
     border-radius: 12px;
 }
-
+.gameScreenDark {
+    background-color: #082D35;
+    border: none;
+    color: white;
+    padding: 40px 93px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
 .buttonSettings {
-    background-color: #C5C5C5;
+    background-color: white;
     border: none;
     color: black;
     padding: 15px 141px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.buttonSettingsDark {
+    background-color:black;
+    border: solid 3px white;
+    color: white;
+    padding: 12px 138px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -58,13 +91,31 @@
     cursor: pointer;
     border-radius: 12px;
 }
-
+.buttonHomeScreenDark {
+    background-color: #075E54;
+    border: none;
+    color: white;
+    padding: 15px 141px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
 #field {
     background-color: #7c5573;
     height: 900px;
     width: 680px;
     position: relative;
     border: solid 5px black;
+}
+#fieldDark {
+    background-color: black;
+    height: 900px;
+    width: 680px;
+    position: relative;
+    border: solid 5px white;
 }
 #player {
     background-color: aquamarine;
@@ -74,48 +125,20 @@
     border: solid 3px black;
     z-index: 1000;
 }
-.buttonLightMode {
-    background-color:white;
-    border: solid black 2px;
-    color: black;
-    padding: 13px 53px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-}
-.buttonDarkMode  {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 55px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-}
-.buttonDarkModeSelected {
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 15px 55px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
+#playerDark {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: solid 3px grey;
+    z-index: 1000;
 }
 
-.buttonLightModeNotSelected {
-    background-color:white;
-    border: solid black 2px;
-    color: black;
-    padding: 13px 53px;
+.buttonDarkMode  {
+    background-color:black;
+    border:solid 3px white ;
+    color: white;
+    padding: 15px 55px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -123,6 +146,51 @@
     cursor: pointer;
     border-radius: 12px;
 }
-.backGroundDark {
-    background-color: black;
+.lightButtonSettingsDark {
+    background-color:black;
+    border: none;
+    color:white;
+    padding: 15px 141px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.lightButtonSettings {
+    background-color:white;
+    border: solid 3px black;
+    color:black;
+    padding: 12px 138px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.homeButtonSettingsDark {
+    background-color: #075E54;
+    border: none;
+    color: white;
+    padding: 15px 141px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.homeButtonSettings {
+    background-color: #C5C5C5;
+    border: none;
+    color: black;
+    padding: 15px 141px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
 }

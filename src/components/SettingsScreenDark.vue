@@ -1,16 +1,21 @@
-<script setup class="backGroundDark">
 
-</script>
 <template>
-  <div class="homeScreenDiv">
-    <h1 class="settingsTitle">Settings</h1>
+  <div style="background-color: black">
+    <div class="homeScreenDiv">
+    <h1 class="settingsTitleDark">Settings</h1>
   </div>
-  <router-link to="SettingsScreenDark">
-    <button class="buttonDarkModeSelected">Dark Mode</button>
+  <router-link to="/settingsScreenDark">
+    <button class="buttonSettingsDark">Dark Mode</button>
   </router-link>
-  <button class="buttonLightMode">NIIIIIIIGGA</button>
+    <router-link to="/settingsScreen">
+  <button class="buttonSettings">Light Mode</button>
+    </router-link>
   <br>
-  <router-link to="/">
-    <button class="buttonHomeScreen">Back to Menu</button>
+  <router-link to="/homeScreenDark">
+    <button class="buttonHomeScreenDark">Back to Menu</button>
   </router-link>
+</div>
 </template>
+<style>
+
+</style>
